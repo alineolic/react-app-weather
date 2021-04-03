@@ -1,17 +1,20 @@
-import './App.css';
-import Weather from './Weather';
+import "./styles.css";
+import Search from "./Search";
+import City from "./City";
+import Temperature from "./Temperature";
+import Credits from "./Credits";
+import Precipitation from "./Precipitation";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>
-          hello from react
-        </h1>
-        <Weather city="New Yorl" /> 
-      </header>
+      <div className="weather-app">
+        <Search />
+        <City />
+        <Temperature />
+        <Precipitation />
+      </div>
+      <Credits />
     </div>
   );
 }
-
-export default App;
