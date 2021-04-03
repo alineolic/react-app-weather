@@ -4,7 +4,7 @@ export default function Credits() {
   return (
     <small className="By">
       <a
-        href="https://github.com/alineolic/vanilla-weather-app"
+        href="https://github.com/alineolic/react-app-weather"
         target="_blank"
       >
         Open-source code
